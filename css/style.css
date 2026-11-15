@@ -65,3 +65,21 @@ footer {
     border-radius: 30px;
     padding: 12px 28px;
 }
+
+/* Google Maps styling */
+
+/* Controls the appearance of the map container */
+.map-container {
+
+    /* Makes the map occupy the full available width */
+    width: 100%;
+
+    /* Rounds the corners of the map */
+    border-radius: 12px;
+
+    /* Hides anything extending beyond the rounded corners */
+    overflow: hidden;
+
+    /* Adds a subtle shadow around the map */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
